@@ -1,0 +1,17 @@
+{
+  "library": "spring-mvc",
+  "dateLibrary": "java8",
+  "hideGenerationTimestamp": true,
+  "modelPackage": "com.modren.api.model",
+  "apiPackage": "com.modren.api",
+  "invokerPackage": "com.modren.api",
+  "serializableModel": true,
+  "useTags": true,
+  "useGzipFeature": true,
+  "hateoas": true,
+  "withXml": false,
+  "importMappings": {
+    "ResourceSupport": "org.springframework.hateoas.RepresentationModel",
+    "Link": "org.springframework.hateoas.Link"
+  }
+}
